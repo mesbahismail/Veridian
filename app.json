@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Veridian",
+    "slug": "veridian",
+    "scheme": "veridian",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#1B1C1E",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.veridian.app" },
+    "android": { "package": "com.veridian.app", "edgeToEdgeEnabled": true },
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": { "typedRoutes": false }
+  }
+}

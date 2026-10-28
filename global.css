@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Veridian design tokens — React Native Reusables (shadcn) compatible.
+   The app is dark-first, so :root and .dark share the same palette. */
+@layer base {
+  :root,
+  .dark:root {
+    --background: 220 5.3% 11.2%;      /* #1B1C1E */
+    --foreground: 0 0% 100%;
+    --card: 216 5.6% 17.5%;            /* #2A2C2F */
+    --card-foreground: 0 0% 100%;
+    --popover: 216 5.6% 17.5%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 165 82.2% 39.6%;        /* #12B88E teal */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 100%;            /* white glossy buttons */
+    --secondary-foreground: 220 5.3% 11.2%;
+    --muted: 220 5.7% 20.8%;           /* #323438 */
+    --muted-foreground: 220 4.7% 62.2%;/* #9A9DA3 */
+    --accent: 186 74.5% 49.2%;         /* #20C7DB cyan */
+    --accent-foreground: 220 5.3% 11.2%;
+    --destructive: 358 75.1% 59%;      /* #E5484D */
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 4.9% 23.9%;          /* #3A3C40 */
+    --input: 220 4.9% 23.9%;
+    --ring: 165 82.2% 39.6%;
+    --radius: 0.75rem;
+  }
+}
